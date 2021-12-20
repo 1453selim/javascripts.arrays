@@ -18,10 +18,10 @@ const newArray2 =text.split(".")//noktaya göre cümle cümle ayırır
 console.log(newArray2);//[ 'today is monday','  i am not happy',' i have to go scholl','' ]
 
 
-//JavaScript Array toString()
+//JavaScript Array join()
 
 const myNewArr = [ 'today', 'is', 'monday.', '','i','am','not','happy.','i','have','to','go','scholl.' ]
-let text1 =myNewArr.toString()
+let text1 =myNewArr.join(" ")
 console.log(text1)//today,is,monday.,,i,am,not,happy.,i,have,to,go,scholl.virgülsüz nasıl olur?????
 
 //Access Elements of an Array
